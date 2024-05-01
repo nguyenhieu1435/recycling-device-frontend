@@ -1,0 +1,219 @@
+
+
+.steps .step {
+    display: block;
+    width: 100%;
+    margin-bottom: 35px;
+    text-align: center
+}
+
+.steps .step .step-icon-wrap {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    text-align: center
+}
+
+.steps .step .step-icon-wrap::before,
+.steps .step .step-icon-wrap::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 3px;
+    margin-top: -1px;
+    background-color: #e1e7ec;
+    content: '';
+    z-index: 1
+}
+
+.steps .step .step-icon-wrap::before {
+    left: 0
+}
+
+.steps .step .step-icon-wrap::after {
+    right: 0
+}
+
+.steps .step .step-icon {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #e1e7ec;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    color: #374250;
+    font-size: 38px;
+    line-height: 81px;
+    z-index: 5
+}
+
+.steps .step .step-title {
+    margin-top: 16px;
+    margin-bottom: 0;
+    color: #606975;
+    font-size: 14px;
+    font-weight: 500
+}
+
+.steps .step:first-child .step-icon-wrap::before {
+    display: none
+}
+
+.steps .step:last-child .step-icon-wrap::after {
+    display: none
+}
+
+.steps .step.completed .step-icon-wrap::before,
+.steps .step.completed .step-icon-wrap::after {
+    background-color: #0da9ef
+}
+
+.steps .step.completed .step-icon {
+    border-color: #0da9ef;
+    background-color: #0da9ef;
+    color: #fff
+}
+
+@media (max-width: 576px) {
+    .flex-sm-nowrap .step .step-icon-wrap::before,
+    .flex-sm-nowrap .step .step-icon-wrap::after {
+        display: none
+    }
+}
+
+@media (max-width: 768px) {
+    .flex-md-nowrap .step .step-icon-wrap::before,
+    .flex-md-nowrap .step .step-icon-wrap::after {
+        display: none
+    }
+}
+
+@media (max-width: 991px) {
+    .flex-lg-nowrap .step .step-icon-wrap::before,
+    .flex-lg-nowrap .step .step-icon-wrap::after {
+        display: none
+    }
+}
+
+@media (max-width: 1200px) {
+    .flex-xl-nowrap .step .step-icon-wrap::before,
+    .flex-xl-nowrap .step .step-icon-wrap::after {
+        display: none
+    }
+}
+
+.bg-faded, .bg-secondary {
+    background-color: #f5f5f5 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.trackFormCard{
+    margin: auto;
+    max-width:450px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media(max-width:768px){
+    .trackFormCard{
+        width: 90%;
+    }
+}
+.upper{
+    padding: 6vh 6vh 3vh 6vh;  
+}
+.lower{
+    padding: 4vh 0 6vh;
+    text-align: center;
+}
+.headingTrack{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+.headingTrack p{
+    margin-bottom: 0;
+}
+.classInput{
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 0.75rem;
+    outline: none;
+    width: 100%;
+    min-width: unset;
+    background-color: transparent;
+}
+.form-element{
+    margin: 4vh 0;
+}
+
+form .col-3,.col-9,.col-1,.col--11{
+    padding: 0;
+    width: min-content;
+}
+form .col-11{
+    padding-left: 10px;
+}
+form .col-1{
+    display: flex;
+    align-items: center;
+    color: red;
+    font-size: 3vh;
+    justify-content: center;
+}
+#code{
+    text-align: center;
+}
+form .row{
+    margin: 0 ;
+}
+hr{
+    margin: 0;
+    border-top: 2px solid rgba( 0, 0, 0, .1);
+}
+#input-header{
+    color: grey;
+}
+.invalid{
+    color: grey;
+    line-height: 1.2;
+}
+.btnTrack{
+    width: 50%;
+    background-color: rgb(255, 38, 0);
+    border-color: rgb(255, 38, 0);
+    color: white;
+    cursor: pointer;
+    padding: 1.5vh 0;
+}
+.btnTrack:focus{
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    -webkit-box-shadow: none;
+    -webkit-user-select: none;
+    transition: none; 
+}
+.btn:hover{
+    color: white;
+}
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+
+.trackFormContainer{
+    height: 100vh;
+
+}

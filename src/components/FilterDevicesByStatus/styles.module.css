@@ -1,0 +1,68 @@
+.tableResponsive {
+    margin: 30px 0;
+}
+.tableWrapper {
+    width: 850px;
+    background: #fff;
+	margin: 0 auto;
+    padding: 20px 30px 5px;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,.25);
+}
+.tableTitle .btnGroup {
+    float: right;
+}
+.tableTitle .btnCss {
+    min-width: 50px;
+    border-radius: 2px;
+    border: none;
+    padding: 6px 12px;
+    font-size: 95%;
+    outline: none !important;
+    height: 30px;
+}
+.tableTitle {
+    min-width: 100%;
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    background: rgb(0, 50, 74);
+    margin: -20px -31px 10px;
+    padding: 15px 30px;
+    color: #fff;
+}
+.tableTitle h2 {
+    margin: 2px 0 0;
+    font-size: 24px;
+}
+table.tableCss {
+    min-width: 100%;
+}
+table.tableCss tr th, table.tableCss tr td {
+    border-color: #e9e9e9;
+    padding: 12px 15px;
+    vertical-align: middle;
+}
+table.tableCss tr th:first-child {
+    width: 40px;
+}
+table.tableCss tr th:last-child {
+    width: 100px;
+}
+table.tableStriped tbody tr:nth-of-type(odd) {
+    background-color: #fcfcfc;
+}
+table.tableStriped.tableHover tbody tr:hover {
+    background: #f5f5f5;
+}
+table.tableCss td a {
+    color: #2196f3;
+}
+table.tableCss td .btnCss.manageCss {
+    padding: 2px 10px;
+    background: #37BC9B;
+    color: #fff;
+    border-radius: 2px;
+}
+table.tableCss td .btnCss.manageCss:hover {
+    background: #2e9c81;		
+}
